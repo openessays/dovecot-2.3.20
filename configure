@@ -1062,7 +1062,7 @@ sbindir='${exec_prefix}/sbin'
 libexecdir='${exec_prefix}/libexec'
 datarootdir='${prefix}/share'
 datadir='${datarootdir}'
-sysconfdir='${prefix}/etc'
+sysconfdir='${prefix}/conf'
 sharedstatedir='${prefix}/com'
 localstatedir='${prefix}/var'
 runstatedir='${localstatedir}/run'
@@ -1614,7 +1614,7 @@ Fine tuning of the installation directories:
   --bindir=DIR            user executables [EPREFIX/bin]
   --sbindir=DIR           system admin executables [EPREFIX/sbin]
   --libexecdir=DIR        program executables [EPREFIX/libexec]
-  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/conf]
   --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
   --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
   --runstatedir=DIR       modifiable per-process data [LOCALSTATEDIR/run]

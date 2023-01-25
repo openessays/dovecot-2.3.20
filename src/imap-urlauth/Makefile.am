@@ -1,4 +1,4 @@
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 # Refer to comment in imap-urlauth.c for info on what these binaries are for.
 pkglibexec_PROGRAMS = imap-urlauth-login imap-urlauth imap-urlauth-worker

@@ -31,7 +31,7 @@ auth_module_LTLIBRARIES = \
 	$(LUA_LIB) \
 	libauthdb_imap.la
 
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 pkglibexec_PROGRAMS = auth checkpassword-reply
 
@@ -54,7 +54,7 @@ AM_CPPFLAGS = \
 	-DAUTH_MODULE_DIR=\""$(auth_moduledir)"\" \
 	-DPKG_LIBEXECDIR=\""$(pkglibexecdir)"\" \
 	-DPKG_RUNDIR=\""$(rundir)"\" \
-	-DSYSCONFDIR=\""$(sysconfdir)/dovecot"\" \
+	-DSYSCONFDIR=\""$(sysconfdir)"\" \
 	$(LUA_CFLAGS) \
 	$(AUTH_CFLAGS)
 

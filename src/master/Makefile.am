@@ -1,4 +1,4 @@
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 sbin_PROGRAMS = dovecot
 systemd_lib =

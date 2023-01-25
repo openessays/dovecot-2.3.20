@@ -414,7 +414,7 @@ AC_DEFUN([DC_DOVECOT],[
 		dnl other than that, they don't really make much sense
 		dovecot_pkgincludedir='$(pkgincludedir)'
 		dovecot_pkglibdir='$(pkglibdir)'
-		dovecot_pkglibexecdir='$(libexecdir)/dovecot'
+		dovecot_pkglibexecdir='$(libexecdir)'
 		dovecot_docdir='$(docdir)'
 		dovecot_moduledir='$(moduledir)'
 		dovecot_statedir='$(statedir)'

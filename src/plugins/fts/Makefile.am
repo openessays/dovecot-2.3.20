@@ -1,4 +1,4 @@
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 doveadm_moduledir = $(moduledir)/doveadm
 
 AM_CPPFLAGS = \

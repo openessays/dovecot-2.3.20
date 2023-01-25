@@ -278,7 +278,7 @@ ETAGS = etags
 CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 ACLOCAL = @ACLOCAL@
 ACLOCAL_AMFLAGS = @ACLOCAL_AMFLAGS@
 AMTAR = @AMTAR@
@@ -497,7 +497,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-pkgsysconfdir = $(sysconfdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
 exampledir = $(docdir)/example-config
 AM_CPPFLAGS = \
 	-I$(top_srcdir)/src/lib \

@@ -416,7 +416,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-pkgsysconfdir = $(sysconfdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
 exampledir = $(docdir)/example-config/conf.d
 example_DATA = \
 	auth-checkpassword.conf.ext \

@@ -1,5 +1,5 @@
 old_stats_moduledir = $(moduledir)/old-stats
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 pkglibexec_PROGRAMS = old-stats
 

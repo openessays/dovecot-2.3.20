@@ -1,4 +1,4 @@
-pkgsysconfdir = $(sysconfdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
 
 noinst_LTLIBRARIES = libmaster.la
 

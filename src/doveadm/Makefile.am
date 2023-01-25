@@ -1,5 +1,5 @@
 doveadm_moduledir = $(moduledir)/doveadm
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 SUBDIRS = dsync
 

@@ -1,4 +1,4 @@
-pkgsysconfdir = $(sysconfdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
 
 exampledir = $(docdir)/example-config/conf.d
 example_DATA = \

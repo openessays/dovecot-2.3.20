@@ -1,5 +1,5 @@
-pkgsysconfdir = $(sysconfdir)/dovecot
-pkglibexecdir = $(libexecdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
+pkglibexecdir = $(libexecdir)
 exampledir = $(docdir)/example-config
 
 bin_PROGRAMS = doveconf

@@ -1,4 +1,4 @@
-pkglibexecdir = $(libexecdir)/dovecot
+pkglibexecdir = $(libexecdir)
 
 pkglibexec_PROGRAMS = anvil
 

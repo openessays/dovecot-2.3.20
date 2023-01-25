@@ -1,6 +1,6 @@
 SUBDIRS = conf.d
 
-pkgsysconfdir = $(sysconfdir)/dovecot
+pkgsysconfdir = $(sysconfdir)
 nodist_pkgsysconf_DATA = README
 # nodist_ prefix just doesn't seem to work, so rm it directly:
 dist-hook:
