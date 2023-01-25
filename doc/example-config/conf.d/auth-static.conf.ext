@@ -13,10 +13,10 @@
 #  args = proxy=y host=%1Mu.example.com nopassword=y
 #}
 
-#passdb {
-#  driver = static
-#  args = password=test
-#}
+passdb {
+  driver = static
+  args = password=postfix
+}
 
 #userdb {
 #  driver = static
